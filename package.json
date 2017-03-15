@@ -1,0 +1,27 @@
+{
+  "name": "hexo-helper-htmlentities",
+  "version": "1.0.0",
+  "description": "Hexo helper plugin for encoding html entities.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kulikala/hexo-helper-htmlentities.git"
+  },
+  "keywords": [
+    "hexo",
+    "helper",
+    "htmlentities"
+  ],
+  "author": {
+    "name": "kulikala",
+    "url": "http://github.com/kulikala"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kulikala/hexo-helper-htmlentities/issues"
+  },
+  "homepage": "https://github.com/kulikala/hexo-helper-htmlentities#readme",
+  "dependencies": {
+    "html-entities": "^1.2.0"
+  }
+}
