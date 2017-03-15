@@ -11,9 +11,13 @@ $ npm install hexo-helper-htmlentities --save
 
 ## Usage
 
+Add `htmlentities` tag in your EJS template:
+
 ```ejs
 <%- htmlentities('<>"&©®∆') %>
 ```
+
+The helper will generate encoded html entities like this:
 
 ```html
 &lt;&gt;&quot;&amp;&copy;&circledR;∆
